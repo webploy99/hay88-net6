@@ -28,15 +28,3 @@ function OpenNav(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
     }
-
-    document.addEventListener('DOMContentLoaded', function () {
-        var splide = new Splide('.splide', {
-            perPage: 1,
-            gap: '20px',
-            type: 'loop',
-            autoplay: true,
-            interval: 2000,
-            snap: true,
-        });
-        splide.mount();
-    });
